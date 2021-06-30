@@ -1,0 +1,19 @@
+.dropdown-wrapper {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-options-wrapper {
+  position: absolute;
+
+  top: 20px;
+  left: 0;
+
+  height: auto;
+
+  cursor: pointer;
+
+  border: 1px solid red;
+}
